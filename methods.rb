@@ -1,21 +1,26 @@
 def greet_programmer
-    puts " Hello, programmer" 
+    puts " Hello, programmer! " 
+end
+greet_programmer
+
+def greet name
+    puts "Hello ,#{name}!"
+  
 end
 
-def greet(name = "JID")
-    puts "Hello #{name}"
+def greet_with_default(name="programmer")
+    puts "Hi there, #{name}!"
+   
 end
 
-def greet_with_default(name= "")
-    puts "Hi there,#{name}"
+
+
+def add num1,num2
+    num1+num2
 end
-
-greet_with_default "sam"
-
-def add 
-    return 1 + 2
+ 
+def halve num.class =!Interger
+    return nil
 end
-
-def halve(4)
-    return 4/2
+num/2
 end
